@@ -1,0 +1,7 @@
+.nav__menu--link{
+    color: rgba(255, 255, 255, 0.47);
+    text-decoration: none;
+}
+.nav__menu--link:hover{
+    color: rgba(255, 255, 255, 0.62);
+}

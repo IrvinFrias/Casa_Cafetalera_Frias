@@ -1,0 +1,8 @@
+.nav__signin--link{
+    color: rgba(241, 241, 241, 0.47);
+    text-decoration: none;
+}
+.nav__signin--link:hover{
+    color: rgba(255, 255, 255, 0.62);
+
+}
