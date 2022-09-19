@@ -1,0 +1,5 @@
+.card__type{
+    border-right: 1px rgba(241, 241, 241, 0.69) solid;
+    width: calc(25% - 1rem);
+    padding-right:1rem;
+}

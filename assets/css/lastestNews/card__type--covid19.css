@@ -1,0 +1,8 @@
+.card__type--covid19{
+    background-color: black;
+    width: calc(25% - 1rem);
+
+}
+.card__type--covid19:last-child{
+    text-align: center;
+}

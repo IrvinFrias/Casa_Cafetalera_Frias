@@ -25,14 +25,39 @@
         <link href="assets/css/header__one/nav__contact--svg.css" rel="stylesheet">
         <link href="assets/css/header__one/nav__contact--link.css" rel="stylesheet">
         <link href="assets/css/header__one/" rel="stylesheet">
-        <link href="assets/css/header__one/" rel="stylesheet">
-        <link href="assets/css/header__one/" rel="stylesheet">
-        <link href="assets/css/header__one/" rel="stylesheet">
 
 
-        <!--Header__one-->
+        <!--SecondNav-->
+        <link href="assets/css/secondNav/secondNav.css " rel="stylesheet">
+        <link href="assets/css/secondNav/secondNav__container--1.css " rel="stylesheet">
+        <link href="assets/css/secondNav/secondNav__list--1.css " rel="stylesheet">
+        <link href="assets/css/secondNav/secondNav__item.css " rel="stylesheet">
+        <link href="assets/css/secondNav/secondNav__link.css " rel="stylesheet">
+        <link href="assets/css/secondNav/secondNav__container--2.css " rel="stylesheet">
+        <link href="assets/css/secondNav/secondNav__list--2.css " rel="stylesheet">
+        <link href="assets/css/secondNav/ " rel="stylesheet">
+
+
+        <!--Banner-->
         <link href="assets/css/banner/banner.css" rel="stylesheet">
         <link href="assets/css/banner/banner__img.css" rel="stylesheet">
+
+
+        <!--LastestNews-->
+        <link href="assets/css/lastestNews/lastestNews.css" rel="stylesheet">
+        <link href="assets/css/lastestNews/cards.css" rel="stylesheet">
+        <link href="assets/css/lastestNews/lastestNews__title.css" rel="stylesheet">
+        <link href="assets/css/lastestNews/card__type.css" rel="stylesheet">
+        <link href="assets/css/lastestNews/card__date.css" rel="stylesheet">
+        <link href="assets/css/lastestNews/card__text.css" rel="stylesheet">
+        <link href="assets/css/lastestNews/card_text--link.css" rel="stylesheet">
+        <link href="assets/css/lastestNews/covid19__advertisement.css" rel="stylesheet">
+        <link href="assets/css/lastestNews/card__type--covid19.css" rel="stylesheet">
+        <link href="assets/css/lastestNews/" rel="stylesheet">
+
+        <!--Footer-->
+        <link href="assets/css/footer/footer__container.css" rel="stylesheet">
+
 
     </head>
     <body>
@@ -65,9 +90,60 @@
                 </div>
             </nav>
         </header>
-        <section class="banner">
-            <img  class="banner__img" src="assets/img/Banner.jpeg">
+        <section class="secondNav">
+            <div class="secondNav__container--1">
+                <ul class="secondNav__list--1">
+                    <li class="secondNav__item"><a class="secondNav__link" href="#">Últimas Noticias</a> </li>
+                    <li class="secondNav__item"><a class="secondNav__link" href="#">Ubicación</a> </li>
+                    <li class="secondNav__item"><a class="secondNav__link" href="#">Nosotros</a> </li>
+                    <li class="secondNav__item"><a class="secondNav__link" href="#">Proveedores</a> </li>
+                </ul>
+            </div>
+            <div class="secondNav__container--2">
+                <ul class="secondNav__list--2">
+                    <li class="secondNav__item"><a class="secondNav__link" href="#">Clientes</a> </li>
+                    <li class="secondNav__item"><a class="secondNav__link" href="#">Ambiente</a> </li>
+                    <li class="secondNav__item"><a class="secondNav__link" href="#">Bolsa de Trabajo</a> </li>
+                    <li class="secondNav__item"><a class="secondNav__link" href="#">Opinión</a> </li>
+                </ul>
+            </div>
         </section>
+
+        <section class="banner">
+            <img  class="banner__img" src="assets/img/Banner.jpeg" alt="Granos de café" loading="lazy">
+        </section>
+
+        <section class="lastestNews">
+            <h1 class="lastestNews__title">Últimas Noticias</h1>
+            <div class="cards">
+                <div class="card__type">
+                    <div class="card__date">18/09/2022</div>
+                    <h3 class="card__text"><a class="card_text--link" href="#">Altos precios de los fertilizantes y la
+                        migración de trabajadores especializados está afectando a los productores de café </a></h3>
+                </div>
+                <div class="card__type">
+                    <div class="card__date">18/09/2022</div>
+                    <h3 class="card__text"><a class="card_text--link" href="#">El café es una de las bebidas que más se
+                        consume en el mundo, y existen personas que no pueden pasar el día sin tomarse, por lo menos, una taza; pero, ¿sabías que el café puede ser beneficioso para la salud? </a></h3>
+                </div>
+                <div class="card__type">
+                    <div class="card__date">18/09/2022</div>
+                    <h3 class="card__text"><a class="card_text--link" href="#">El cultivo y producción de café cereza
+                        Chiapas continúa siendo líder nacional, con un volumen de 385 mil 703 toneladas al cierre de julio, seguido de Veracruz con 243 mil 135 y Puebla 171 mil 699.</a></h3>
+                </div>
+                <div class="card__type--covid19">
+                    <div class="covid19__advertisement">COVID-19</div>
+                    <h3
+                            class="card__text"><a class="card_text--link covid19" href="#">La casa cafetalera Frías
+                        continua manteniendo los protocolos de salubridad para prevenir el contagio de COVID-19
+                    </a></h3>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__container">|</div>
+        </footer>
 
 
     </body>
