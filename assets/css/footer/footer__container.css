@@ -1,4 +1,8 @@
 .footer__container{
-    background-color: black;
-    padding: 15rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding-top:3rem;
+    padding-bottom: 3rem;
 }

@@ -1,0 +1,7 @@
+.copyright__link{
+    color: darkorange;
+    text-decoration: none;
+}
+.copyright__link:hover{
+    color: cornflowerblue;
+}

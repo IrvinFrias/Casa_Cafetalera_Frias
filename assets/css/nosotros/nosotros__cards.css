@@ -1,0 +1,5 @@
+.nosotros__cards{
+    width: calc( 25% - 1rem);
+    border-right: 1px rgba(40, 41, 44, 0.42) solid;
+
+}

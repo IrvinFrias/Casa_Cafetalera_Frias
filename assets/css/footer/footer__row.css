@@ -1,0 +1,6 @@
+.footer__row{
+    border-right: 1px #000000 solid;
+    padding-right:1rem;
+
+    width: calc(25% - 1rem);
+}

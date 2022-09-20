@@ -1,0 +1,6 @@
+.footer__second{
+    font-family: practical-serif,sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
