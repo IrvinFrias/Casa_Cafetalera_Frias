@@ -1,0 +1,5 @@
+.products__cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
