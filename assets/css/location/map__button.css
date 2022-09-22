@@ -1,0 +1,15 @@
+.map__button{
+    padding:1rem;
+    text-decoration: none;
+    color: white;
+    background: #0A81D5;
+    border-radius: 20px;
+    width: 80%;
+    margin-bottom: 2rem;
+    text-align: center;
+    vertical-align: center;
+    transition: .4s linear;
+}
+.map__button:hover{
+    background-color: #191919;
+}

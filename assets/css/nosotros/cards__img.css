@@ -3,3 +3,6 @@
     margin-right: 2rem;
     border-radius: 10px;
 }
+.cards__img:hover{
+    width: 91%;
+}
